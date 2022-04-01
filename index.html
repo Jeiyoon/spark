@@ -190,6 +190,11 @@
 					</center>
 				</td>
 			</tr>
+			<tr>
+				<td>
+					We postulate that the part where emotional information appears frequently in a video is correlated with highlights. So we first extract visual features (using CLIP) and audio features (using Wav2vec2) from a video simultaneously. And then we employ attention mechanism with these features. Finally we get importance score from the Emotion-attended features and generate highlights based on the scores.  
+				</td>
+			</tr>
 		</table>
 <!-- 		<table align=center width=850px>
 			<tr>
@@ -213,12 +218,7 @@
 		</tr>
 		<tr>
 			<td>
-				-With the surge of large-scale model, available video material, and sophisticated hardware resources such as GPU, recent works in Video Summarization is advancing rapidly. 
-			</td>
-		</tr>
-		<tr>
-			<td>
-				-With the surge of large-scale model, available video material, and sophisticated hardware resources such as GPU, recent works in Video Summarization is advancing rapidly. 
+				With the surge of large-scale model, available video material, and sophisticated hardware resources such as GPU, recent works in Video Summarization is advancing rapidly. Vision-guided apporaches derive important scenes by utilizing visual features in the video. However, despite its notable success in video summarization, previous works use just visual features, such as Optical flow and RGB, leaving audio features behind. Language-Guided Approaches learn by automatically extracting caption information from the video. Although these methods allow a user to have the option of customizing the summary, it is difficult to use if a user don't know about the video since a user have to rely on subjective information called user captions. 
 			</td>
 		</tr>
 	</table>
